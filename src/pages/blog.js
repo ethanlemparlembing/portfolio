@@ -1,16 +1,13 @@
-import React from 'react'
-import Header from '../components/header'
-import Footer from '../components/footer'
+import React from "react"
+import Layout from "../components/layout"
 
 const blogPages = () => {
-    return ( 
-        <div>
-            <Header/>
-            <h1>blog</h1>
-            <p>lorem</p>
-            <Footer />
-        </div>
-    )
+  return (
+    <Layout>
+      <h1>blog</h1>
+      <p>lorem</p>
+    </Layout>
+  )
 }
 
 export default blogPages
